@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(image/restaurante.jpg);
+    background-color: red;
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.info > .card-info {
+    flex: 1 1 200px ;
+    margin: 10px;
+}
+
+.card-info{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: bisque;
+  }
+.image-info:hover {
+    width: 210px;
+    height: 142px;
+}
+.delivery{
+    text-align: left;
+}
+.icon-info{
+    position: relative;
+    animation-name: mover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes mover {
+    from {
+      left: 0;
+    }
+    to {
+      left: 94%;
+    }
+  }
+
+.info-button{
+  width: 180px;
+  height: 36px;
+  border-radius: 7.5px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  color:beige;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.form_re{
+  background-color: rgba(0, 0, 0, 0.3);
+  color: beige;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  padding: 5px;
+}
+.su_form{
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 5px;
+
+}
+.m_inp{
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 0;
+
+}
+.barra_nav{
+  text-align: center;
+
+}
+
+.barra_nav > h1{
+  color: beige;
+  font-family: 'Roboto Condensed', sans-serif;
+}

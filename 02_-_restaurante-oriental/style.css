@@ -1,0 +1,55 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(image/restaurante.jpg);
+    background-color: red;
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+/* Header */
+
+nav {
+    text-align: center;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(216, 18, 18, 0.1);
+    border-radius: 0 0 10px 10px;
+}
+.s_aloon {
+    color: rgb(156, 2, 2);
+}
+nav h1 {
+    margin: 0;
+    color:bisque;
+    font-size: xxx-large;
+    text-transform: uppercase;
+    text-shadow: 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Main */
+
+a button{
+    width: 200px;
+    height: 50px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgba(13.3, 4.3, 1.2);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#cardapio{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+
+}
+

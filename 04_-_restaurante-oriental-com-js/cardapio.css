@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(image/restaurante.jpg);
+    background-color: red;
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+/* Header */
+
+nav {
+    text-align: center;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(216, 18, 18, 0.1);
+    border-radius: 0 0 10px 10px;
+}
+.s_aloon {
+    color: rgb(156, 2, 2);
+}
+nav h1 {
+    margin: 0;
+    color:bisque;
+    font-size: xxx-large;
+    text-transform: uppercase;
+    text-shadow: 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+/*  */
+.image-card{
+    border-radius: 10px
+} 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container > div {
+    flex: 1 1 200px ;
+    margin: 10px;
+}
+
+.cards{
+    padding-top: 5px;
+    width: 100px;
+    height: 250px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 10px;
+}
+section div p:nth-child(2){
+    font-weight: 900;
+}
+section div p:nth-child(3){
+    font-size: small;
+}
+section div a{
+    bottom: 5px;
+}
+.container > div > p{
+    color: bisque;
+    font-size: 20px;
+    margin: 5px;
+}
+.card-button{
+    width: 180px;
+    height: 36px;
+    border-radius: 7.5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:beige;
+    font-size: 15px;
+    cursor: pointer;
+}
+.barra_nav{
+    text-align: center;
+
+}
+
+.barra_nav > h1{
+    color: beige;
+    font-family: 'Roboto Condensed', sans-serif;
+}
