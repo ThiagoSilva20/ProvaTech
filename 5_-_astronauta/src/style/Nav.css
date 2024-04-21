@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+
+ul li{
+    margin-left: 20px;
+}
+
+.animacaoli {
+    background-color: rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+    transition-duration: 1s;
+
+}
+
+nav{
+    z-index: 1;
+}
+@media (min-width: 390px) {
+    .navbar-expand-lg .navbar-collapse {
+        text-align: center;
+        flex-basis: auto;
+        display: flex;
+
+    }
+}
+.collapse:not(.show) {
+    display: show; 
+}
