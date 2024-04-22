@@ -31,7 +31,7 @@ const DetalheAsteroide = () => {
             <h6>Diâmetro Máximo<br />{asteroide?.estimated_diameter.kilometers.estimated_diameter_max}</h6>
             <h6>Velocidade relativa(Hora)<br />{asteroide?.close_approach_data?.[0]?.relative_velocity?.kilometers_per_hour}</h6>
             <h6>Magnitude absoluta<br />{asteroide?.absolute_magnitude_h}</h6>
-            <Link style={{border:'1px solid black', borderRadius:'5px', textDecoration:'none', color:'black', padding:'5px 10px', background:'rgba(211, 211, 211, 0.5)'}} to={asteroide?.nasa_jpl_url}>Mais Detalhes</Link>
+            <a style={{border:'1px solid black', borderRadius:'5px', textDecoration:'none', color:'black', padding:'5px 10px', background:'rgba(211, 211, 211, 0.5)'}} href={asteroide?.nasa_jpl_url} target='_blank'>Mais Detalhes</a>
           </div>
         </div>
       </div >

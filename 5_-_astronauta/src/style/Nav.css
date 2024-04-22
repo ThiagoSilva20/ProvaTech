@@ -12,18 +12,14 @@ ul li{
     transition-duration: 1s;
 
 }
-
-nav{
-    z-index: 1;
-}
-@media (min-width: 390px) {
+@media (max-width: 991px) {
     .navbar-expand-lg .navbar-collapse {
         text-align: center;
         flex-basis: auto;
         display: flex;
-
+        margin-top: 2px;
     }
-}
-.collapse:not(.show) {
-    display: show; 
+    nav > div > div {
+        display: block;
+    }
 }
