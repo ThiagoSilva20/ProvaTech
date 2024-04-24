@@ -28,16 +28,20 @@ function ListaAsteroides() {
         searchData();
     }, [])
 
+
     return (
         <>
-            <div style={{ width: '50%',height:'auto' , margin: '10px auto', display:'ruby-text'}}>
+            <div style={{ width: '50%', margin: '10px auto', display:'ruby-text'}}>
                 {astros.length === 0 ? <p>Carregando...</p> : (astros.map((astro) => (
                     <div className="card" key={astro.id} style={{ width: '18rem', margin: '10px' }}>
                         <Link to={`/asteroides/${astro.id}`} style={{ textDecoration: 'none', width: '18rem' }} >
-                            <div className="card-body" key={astro.id}>
-                                <div ><h5 className="card-title">{astro.name}</h5></div>
-                                <div ><p className="card-text">É potencialmente perigoso?{astro.is_potentially_hazardous_asteroid === false ? <p> Não</p> : <p> Sim</p>}</p></div>
-                                <div ><p className="card-text">Diâmetro MÁXIMO estimado em quilômetros é de {astro.estimated_diameter.kilometers.estimated_diameter_max}</p></div>
+                            <div className="card-body" >
+                                <div ><h5 className="card-title text-center">{astro.name}</h5></div>
+
+                                <div ><p className="card-text text-center">É potencialmente perigoso? <br />{astro.is_potentially_hazardous_asteroid === false ? <span> Não</span> : <span> Sim</span>}</p></div>
+
+                                <div ><p className="card-text text-center">Diâmetro MÁXIMO (Quilômetros) <br /> {astro.estimated_diameter.kilometers.estimated_diameter_max}</p></div>
+                                
                                 <div ><p className="card-text text-center">Clique no Card Para Saber Mais</p></div>
                             </div>
                         </Link>

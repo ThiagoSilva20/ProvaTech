@@ -2,10 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import PageInicial from './PageInicial.jsx'
-import MaisInformacoes from './MaisInformacoes.jsx'
-import Sobre from './SobreMim.jsx'
-import ListaAsteroides from './ListaAsteroides.jsx'
+import PageInicial from './pages/PageInicial.jsx'
+import MaisInformacoes from './pages/MaisInformacoes.jsx'
+import Sobre from './pages/SobreMim.jsx'
+import ListaAsteroides from './pages/ListaAsteroides.jsx'
 import NaoEncotrada from './layout/NaoEncontrada.jsx'
 
 

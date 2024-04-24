@@ -1,4 +1,4 @@
-import img from './assets/eu.jpg'
+import img from '../assets/eu.jpg'
 
 const SobreMim = () => {
     return (

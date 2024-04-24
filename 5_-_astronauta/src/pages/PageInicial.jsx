@@ -2,10 +2,10 @@ import React from 'react';
 
 import { Outlet } from 'react-router-dom'
 
-import Nav from './layout/Nav'
-import Footer from './layout/Footer'
+import Nav from '../layout/Nav'
+import Footer from '../layout/Footer'
 
-function App() {
+function PageInicial() {
   return (
     <>
       <Nav />
@@ -16,4 +16,4 @@ function App() {
 }
 
 
-export default App
+export default PageInicial
